@@ -14,4 +14,8 @@ export class UserDTO {
     @IsString()
     @IsNotEmpty()
     username: string;
+
+    @IsString()
+    @IsNotEmpty()
+    phone: string;
 }

@@ -17,4 +17,10 @@ export class UserEntity {
 
     @Column()
     username: string;
+
+    @Column()
+    phone: string;
+
+    @Column()
+    isOnline: boolean
 }
